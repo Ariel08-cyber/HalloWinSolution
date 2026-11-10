@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="270" viewBox="0 0 640 270" font-family="Segoe UI, Arial, sans-serif" font-size="14">
+  <rect width="640" height="270" fill="#ffffff"/>
+
+  <!-- Association Enfant — Maison -->
+  <line x1="160" y1="50" x2="460" y2="50" stroke="#222" stroke-width="1.5"/>
+  <text x="310" y="42" text-anchor="middle" font-style="italic" fill="#222">visite</text>
+  <text x="168" y="70" fill="#222">0..*</text>
+  <text x="452" y="70" text-anchor="end" fill="#222">0..*</text>
+
+  <!-- Lien de la classe d'association -->
+  <line x1="310" y1="50" x2="310" y2="170" stroke="#222" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- Enfant -->
+  <g transform="translate(20,20)">
+    <rect width="140" height="76" fill="#fff8ec" stroke="#222" stroke-width="1.5"/>
+    <text x="70" y="20" text-anchor="middle" font-weight="bold" fill="#222">Enfant</text>
+    <line x1="0" y1="30" x2="140" y2="30" stroke="#222"/>
+    <text x="10" y="50" fill="#222">nom</text>
+    <line x1="0" y1="60" x2="140" y2="60" stroke="#222"/>
+  </g>
+
+  <!-- Maison -->
+  <g transform="translate(460,20)">
+    <rect width="160" height="156" fill="#fff8ec" stroke="#222" stroke-width="1.5"/>
+    <text x="80" y="20" text-anchor="middle" font-weight="bold" fill="#222">Maison</text>
+    <line x1="0" y1="30" x2="160" y2="30" stroke="#222"/>
+    <text x="10" y="50" fill="#222">numeroCivique</text>
+    <text x="10" y="70" fill="#222">rue</text>
+    <text x="10" y="90" fill="#222">ville</text>
+    <text x="10" y="110" fill="#222">codePostal</text>
+    <text x="10" y="130" fill="#222">estSignalee</text>
+    <line x1="0" y1="140" x2="160" y2="140" stroke="#222"/>
+  </g>
+
+  <!-- Visite (classe d'association) -->
+  <g transform="translate(240,170)">
+    <rect width="140" height="76" fill="#fff8ec" stroke="#222" stroke-width="1.5"/>
+    <text x="70" y="20" text-anchor="middle" font-weight="bold" fill="#222">Visite</text>
+    <line x1="0" y1="30" x2="140" y2="30" stroke="#222"/>
+    <text x="10" y="50" fill="#222">dateVisite</text>
+    <line x1="0" y1="60" x2="140" y2="60" stroke="#222"/>
+  </g>
+</svg>
